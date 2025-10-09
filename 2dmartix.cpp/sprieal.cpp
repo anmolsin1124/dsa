@@ -10,6 +10,9 @@ int main()
         {
         
             cout<<ar[j][i]<< " ";
+            int name  = ar[j][i];
+            if(name % 2 == 0){
+                cout<<"even"<<endl;
             
 
         }
