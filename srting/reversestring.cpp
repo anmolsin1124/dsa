@@ -1,20 +1,18 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
-int main(){
-    string str = "lomnahgnis";
+int main()
+{
+    string str = "hgnislomna";
     int start = 0;
-    int end  = str.length()-1;
-    while (start<end)
+    int end = str.length() - 1;
+    while (start < end)
     {
-        swap(str[start],str[end]);
+        swap(str[start], str[end]);
         start++;
         end--;
-
     }
-    cout<<str<<endl;
-
-    
+    cout << str << endl;
 
     return 0;
 }
