@@ -1,64 +1,46 @@
-# 🚀 My DSA Journey
+# My Coding Journey
 
-Welcome to my **Data Structures and Algorithms (DSA)** repository!  
-This repo contains all the problems and solutions I’m practicing — from **basic to advanced** level.  
-I’m building a strong foundation step by step 💪
-
----
-
-## 🏁 About Me
-Hey there! 👋 I'm **Anmol Singh**, a B.Tech Data Science student.  
-Currently mastering **DSA**, then moving to **Web Development → Data Science → AI**.  
-My dream: to become an **expert-level coder (Top 1%)** by 8th semester 🚀
+Hello, I'm Anmol Singh — a passionate B.Tech student in Data Science.  
+I believe in learning step by step and building a strong foundation in programming before moving into advanced fields like AI and Cyber Security.
 
 ---
 
-## 📚 Topics Covered
-- Basics of C / C++
-- Arrays and Strings  
-- Recursion and Backtracking  
-- Sorting and Searching Algorithms  
-- Linked List, Stack, Queue  
-- Trees and Graphs  
-- Dynamic Programming (DP)  
-- Bit Manipulation  
-- Time & Space Complexity Analysis  
+## My Learning Path
+
+### 1. Python (Starting Point)
+I began my journey with **Python**, where I learned the basics of programming, logic building, and syntax understanding.  
+This helped me understand how programming languages work and built my confidence to explore more.
+
+### 2. C Language
+After Python, I learned **C** to understand low-level programming concepts such as memory management, pointers, and structure of code.  
+C gave me a solid foundation in logic and algorithmic thinking.
+
+### 3. C++
+Next, I moved to **C++**, which helped me understand Object-Oriented Programming (OOP) concepts and efficient problem-solving techniques.  
+Now I am currently using C++ for **Data Structures and Algorithms (DSA)**.
 
 ---
 
-## 🧩 Practice Plan
-| Semester | Focus Area |
-|-----------|-------------|
-| 1️⃣ | DSA (Logic + Implementation) |
-| 2️⃣ | Web Development (Frontend + Backend) |
-| 3️⃣ | Data Science |
-| 4️⃣ → 8️⃣ | AI + Advanced Projects |
+## Current Focus: DSA with C++
+At present, I am focusing on **Data Structures and Algorithms (DSA)** to strengthen my logic, problem-solving, and time–space complexity understanding.  
+This phase is helping me prepare for future development and technical interviews.
 
 ---
 
-## 🛠️ Tech Stack
-🟦 C / C++  
-🟪 Visual Studio Code  
-🟥 Git  
-⬛ GitHub  
+## Future Goals
+After mastering DSA, my roadmap is:
+
+1. **Data Science** – Learn Machine Learning, Data Analysis, and Visualization.  
+2. **Artificial Intelligence (AI / ML)** – Dive deeper into neural networks and model training.  
+3. **Cyber Security** – Learn ethical hacking, network security, and data protection concepts.
 
 ---
 
-## 💻 How I Practice
-- Write clean, well-commented, and optimized code ✨  
-- Solve DSA problems daily (Consistency > Speed) ⚡  
-- Track my progress using Git commits 📈  
-- Learn deeply by debugging and dry runs 🧩  
+## My Vision
+I aim to become a **multi-skilled tech expert**, mastering coding, data, and security.  
+Step by step, I’m building a strong base to reach the top 1% in my field.
 
 ---
 
-## 📊 My Progress Overview
-🧠 DSA Level: Beginner → Advanced  
-🔥 Focus: Logic building and optimization  
-📅 Practice Goal: Daily  
-🎯 Target: Strong foundation before 3rd semester  
-
----
-
-> _"Code. Debug. Learn. Repeat."_  
-> — **Anmol Singh 🧠🔥**
+### Quote
+_"Learn the basics deeply, master one skill at a time, and the future will follow naturally."_
