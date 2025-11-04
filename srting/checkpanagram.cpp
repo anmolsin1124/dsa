@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    string str = "abcdefghijklmnoqrs tuvwxyz";
+    string str = "abcdefghijklmnosfsfdsasdasqrs tuvwxyz";
     vector<int> alpha(26, 0);
 
     for (int i = 0; i < str.size(); i++)

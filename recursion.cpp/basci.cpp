@@ -69,15 +69,39 @@ using namespace std;
 //         return 0;
 //     }
 //     return arr[index] + sumarray(arr,index+1,n);
+
 // }
+/////////////////////////////////////////minmumun element in array
+// int minarray(int arr[], int index, int n)
+// {
+//     if (index == n - 1)
+//     {
+//         return arr[index];
+//     }
+//     return min(arr[index], minarray(arr, index + 1, n));
+// }
+////////////////////////////////////////////////RRECUSION ON STRING
+// void palindrome(string s, int start, int end)
+// {
+//     if (start >= end)
+//     {
+//         cout << "palindrome" << endl;
+//         return;
+//     }
 
-int main(){
-// {   power(2,9);
+//     if (s[start] != s[end])
+//     {
+//         cout << "not palindrome" << endl;
+//         return;
+//     }
 
-// {   power(2,9);
-int arr[6]={1,2,3,4,5,6};
-int n=6;
+//     palindrome(s, start + 1, end - 1);
+// }
+///////////////////////////////////cout 
 
-
+int main()
+{
+    string s = "maadama";
+    palindrome(s, 0, s.length() - 1);
     return 0;
 }
