@@ -96,12 +96,27 @@ using namespace std;
 //     }
 
 //     palindrome(s, start + 1, end - 1);
+// 
+///////////////////////////////////check vowel in a string using recursion
+// int countVowel(string s, int index)
+// {
+//     if (index == s.length()) // base case
+//         return 0;
+
+//     char ch = s[index];
+//     int count = 0;
+
+//     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+//         ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+//     {
+//         count = 1;
+//     }
+
+//     return count + countVowel(s, index + 1); // move forward
 // }
-///////////////////////////////////cout 
 
 int main()
 {
-    string s = "maadama";
-    palindrome(s, 0, s.length() - 1);
-    return 0;
+    string s = "Anmroiuyyrttompo123123a bnbuiol";
+    cout << "Vowel count: " << countVowel(s, 0);
 }
