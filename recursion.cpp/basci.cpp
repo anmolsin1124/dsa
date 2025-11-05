@@ -126,23 +126,69 @@ using namespace std;
 //     reverseString(s, start + 1, end - 1);
 // }
 //////////////////////lowercase to uppercase using recursion
-void toUppercase(string &s, int index)
-{
-    if (index == -1)
-    {
-        return;
-    }
-    if (s[index] >= 'a' && s[index] <= 'z')
-    {
-        s[index] = s[index] - ('a' - 'A');
-    }
-    toUppercase(s, index -1 );
-}
+// void toUppercase(string &s, int index)
+    // {
+    //     if (index == -1)
+    //     {
+    //         return;
+    //     }
+    //     if (s[index] >= 'a' && s[index] <= 'z')
+    //     {
+    //         s[index] = s[index] - ('a' - 'A');
+    //     }
+    //     toUppercase(s, index -1 );
+    // }
+    /////////////////////linear search using recursion
+//     bool linearSearch(int arr[], int x, int index, int n)
+// {
+//     if (index == n)
+//     {
+//         cout << "Not found" << endl;
+//         return false;
+//     }
 
+//     if (arr[index] == x)
+//     {
+//         cout << "Found at index " << index << endl;
+//         return true;
+//     }
+
+//     return linearSearch(arr, x, index + 1, n);
+// }
+////////////////////////////binary search using recursion
+// bool binarySearch(int arr[], int x, int left, int right)
+// {
+//     if (left > right)
+//     {
+//         cout << "Not found" << endl;
+//         return false;
+//     }
+
+//     int mid = left + (right - left) / 2;
+
+//     if (arr[mid] == x)
+//     {
+//         cout << "Found at index " << mid << endl;
+//         return true;
+//     }
+//     else if (arr[mid] < x)
+//     {
+//         return binarySearch(arr, x, mid + 1, right);
+//     }
+//     else
+//     {
+//         return binarySearch(arr, x, left, mid - 1);
+//     }
+// }
 
 int main()
 {
-    string s = "anmolsingh";
-    toUppercase(s, s.length() - 1);
-     cout<<s<<endl;
+    int arr[] = {2, 4, 6, 8, 10};
+    int n = 5;
+    int x = 8;
+    binarySearch(arr, x, 0, n - 1);
+
+
+
+    return 0;
 }
