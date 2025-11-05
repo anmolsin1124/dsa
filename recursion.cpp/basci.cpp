@@ -181,14 +181,12 @@ using namespace std;
 //     }
 // }
 
+
 int main()
 {
     int arr[] = {2, 4, 6, 8, 10};
     int n = 5;
     int x = 8;
-    binarySearch(arr, x, 0, n - 1);
-
-
-
-    return 0;
+    
+        return 0;
 }
