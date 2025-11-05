@@ -114,9 +114,35 @@ using namespace std;
 
 //     return count + countVowel(s, index + 1); // move forward
 // }
+///////////////////////reverse a string using recursion
+// void reverseString(string &s, int start, int end)
+// {
+//     if (start >= end)
+//     {
+//         return;
+//     }
+    
+//     swap(s[start], s[end]);
+//     reverseString(s, start + 1, end - 1);
+// }
+//////////////////////lowercase to uppercase using recursion
+void toUppercase(string &s, int index)
+{
+    if (index == -1)
+    {
+        return;
+    }
+    if (s[index] >= 'a' && s[index] <= 'z')
+    {
+        s[index] = s[index] - ('a' - 'A');
+    }
+    toUppercase(s, index -1 );
+}
+
 
 int main()
 {
-    string s = "Anmroiuyyrttompo123123a bnbuiol";
-    cout << "Vowel count: " << countVowel(s, 0);
+    string s = "anmolsingh";
+    toUppercase(s, s.length() - 1);
+     cout<<s<<endl;
 }
