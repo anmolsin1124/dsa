@@ -9,6 +9,11 @@ int main()
     {
         cout << arr[i] << " " << endl;
     }
+    cout << "after multiplying by 2" << endl;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] * 2 << " " << endl;
+    }
 
     return 0;
 }
